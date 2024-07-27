@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+
+    <!-- a table for common  anomalies -->
+    <GalaxyGeneratorWeightTable Name="AnomalyGeneration_Default">
+        <Entry Tag="Curiosity_PlanetAnomaly01"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly02"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly03"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly04"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly05"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly06"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly07"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly08"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly09"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly10"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly11"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly12"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly13"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly14"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly15"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly16"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly17"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly18"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly19"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly20"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly21"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly22"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly23"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly24"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly28"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly29"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly30"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly31"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly32"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly33"        Weight="12"/>
+        <Entry Tag="Curiosity_PlanetAnomaly34"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly35"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly36"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly37"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly38"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly39"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly40"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly41"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly42"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly43"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly44"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly45"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly46"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly47"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly25"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly25Alt"     Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly26"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly26Alt"     Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly27"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly27Alt"     Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly48"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly50"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly51"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly52"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly53"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly54"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomaly55"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyStrongField" Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyTame"      Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyEX"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyCalm"      Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyBreath"    Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyCL"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyLR"        Weight="10"/>      
+        <Entry Tag="Curiosity_PlanetAnomalySpring"    Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyHab"       Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyOasis"     Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyBio"       Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyCryo"      Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyCR"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyRA"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyMA"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyFaraday"   Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyThin"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyNight"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyMP"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyEDS"        Weight="6"/>
+        <Entry Tag="Curiosity_PlanetAnomalyHL"        Weight="15"/>
+        <Entry Tag="Curiosity_PlanetAnomalyFlora"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyUnbreath"        Weight="10"/>
+        <Entry Tag="Curiosity_PlanetAnomalyGamma"          Weight="10"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="AnomalyVisibleGeneration_Default">
+        <Entry Tag="PlanetAnomaly01"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly02"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly03"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly04"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly05"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly06"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly07"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly08"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly09"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly10"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly11"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly12"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly13"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly14"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly15"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly16"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly17"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly18"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly19"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly20"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly21"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly22"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly23"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly24"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly25"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly25Alt"     Weight="10"/>
+        <Entry Tag="PlanetAnomaly26"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly26Alt"     Weight="10"/>
+        <Entry Tag="PlanetAnomaly27"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly27Alt"     Weight="10"/>
+        <Entry Tag="PlanetAnomaly28"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly29"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly30"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly31"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly32"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly33"        Weight="12"/>
+        <Entry Tag="PlanetAnomaly34"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly35"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly36"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly37"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly38"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly39"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly40"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly41"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly42"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly43"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly44"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly45"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly46"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly47"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly48"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly50"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly51"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly52"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly53"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly54"        Weight="10"/>
+        <Entry Tag="PlanetAnomaly55"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyStrongField" Weight="10"/>
+        <Entry Tag="PlanetAnomalyTame" Weight="10"/>
+        <Entry Tag="PlanetAnomalyEX" Weight="10"/>
+        <Entry Tag="PlanetAnomalyCalm" Weight="10"/>
+        <Entry Tag="PlanetAnomalyBreath" Weight="10"/>
+        <Entry Tag="PlanetAnomalyCL" Weight="10"/>
+        <Entry Tag="PlanetAnomalyLR" Weight="10"/>      
+        <Entry Tag="PlanetAnomalySpring"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyHab"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyOasis"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyBio"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyCryo"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyCR"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyRA"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyMA"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyFaraday"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyThin"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyNight"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyMP"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyEDS"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyHL"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyFlora"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyUnbreath"        Weight="10"/>
+        <Entry Tag="PlanetAnomalyGamma"          Weight="10"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasFrozen_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasCold_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+      <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasTemperate_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+       <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasWarm_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+       <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasHot_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="PlanetTypeGasBurning_Size">
+        <Entry Tag="PlanetSizeTiny"         Weight="-1"/>
+        <Entry Tag="PlanetSizeSmall"        Weight="-1"/>
+        <Entry Tag="PlanetSizeMedium"       Weight="-1"/>
+        <Entry Tag="PlanetSizeLarge"        Weight="-1"/>
+        <Entry Tag="PlanetSizeHuge"         Weight="100"/>
+    </GalaxyGeneratorWeightTable>
+
+</Datatable>

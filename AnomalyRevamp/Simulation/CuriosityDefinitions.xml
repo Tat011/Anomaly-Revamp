@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/CuriosityDefinition.xsd">
+
+    <!-- ######################################################################## -->
+    <!-- ######################################################################## -->
+    <!-- ########## ONLY ONE TYPE OF EFFECT PER CURIOSITY DEFINITION! ########### -->
+    <!-- ######################################################################## -->
+    <!-- ######################################################################## -->
+
+
+    <!-- Garden of Eden -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly01" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+                          Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly01"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>        
+    </CuriosityDefinition>
+  
+    <!-- Dust Ruins -->  
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly02" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly02"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+    
+   <!-- Friendly Locals -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly03" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly03"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Rich Soil -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly04" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly04"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Mineral Rich -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly05" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly05"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Hadopelagic Life  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly06" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly06"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Antonov Ring -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly07" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeSignal" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly07"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Signal_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeSignal"/>
+    </CuriosityDefinition>
+
+    <!-- Huygens Rings  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly08" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeSignal" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly08"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Signal_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeSignal"/>
+    </CuriosityDefinition>
+    
+    <!-- Hollow Planet -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly09" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly09"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Ice-10 -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly10" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly10"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Permanent Monsoon -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly11" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly11"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Metallic Waters -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly12" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly12"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Aurora Waves -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly13" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly13"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <!-- Dense Atmosphere -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly14" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly14"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Psychoactive Air -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly15" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly15"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Geothermic Activity --> 
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly16" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly16"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Seismic Activity -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly17" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly17"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Long Season -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly18" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly18"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+       
+    <!-- Meteor Strikes -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly19" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeSignal" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly19"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Signal_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeSignal"/>
+    </CuriosityDefinition>
+
+    <!-- Polar Tempests -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly20" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly20"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Weak (Formerly Strong) Magnetic Field -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly21" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly21"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Strong Magnetic Field -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyStrongField" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyStrongField"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Kessler Syndrome -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly22" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly22"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!-- Acid Rain -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly23" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly23"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <!-- Irradiated -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly24" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly24"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly25" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly25"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly25Alt" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly25Alt"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly26" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly26"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly26Alt" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly26Alt"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+    
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly27" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly27"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly27Alt" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly27Alt"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Hostile Fauna -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly28" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+                     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly28"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Tame Fauna -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyTame" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+                     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyTame"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Ancient Ruins -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly29" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins"
+                 Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly29"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!-- Dust Lode -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly30" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins"
+             Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly30"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!-- Coral Reefs -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly31" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+             Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly31"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Cyber Flora  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly32" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly32"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Strange Fossils  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly33" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly33"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Microfactories  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly34" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly34"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Mutated Flora -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly35" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly35"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Low Gravity   -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly36" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly36"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Deserted Cities -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly37" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly37"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!-- Molten Spring   -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly38" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly38"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Shattered Crust -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly39" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly39"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+
+    <!-- Komatiite Volcano    -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly40" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly40"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!--  Propotitious Seasons   -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly41" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly41"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!--  Humeris Insidentis   -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly42" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly42"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!--  Poor Soil  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly43" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+        Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly43"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!--  High Gravity  -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly44" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly44"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!--  Behmoth Song -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly45" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeSignal"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly45"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Signal_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeSignal"/>
+    </CuriosityDefinition>
+
+    <!--  Talking World -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly46" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeSignal"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly46"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Signal_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeSignal"/>
+    </CuriosityDefinition>
+
+    <!-- Fearful Symmetry -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomaly47" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomaly47"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Extremophile Liforms -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyEX" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyEX"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Calm Weather -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyCalm" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyCalm"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Breathable Atmosphere -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyBreath" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyBreath"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Crystal Lifeforms -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyCL" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyCL"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Lava Reefs -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyLR" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyLR"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Springs -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalySpring" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalySpring"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Abandoned Orbital Habitats -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyHab" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyHab"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!-- Oasis -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyOasis" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyOasis"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Bioluminescent life -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyBio" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyBio"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Cryovolcanoes -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyCryo" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyCryo"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Crystal Rain -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyCR" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyCR"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Rich Atmosphere -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyRA" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyRA"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Mountaneous Terrain -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyMA" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyMA"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Faraday Planet -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyFaraday" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeSignal" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyFaraday"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Signal_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeSignal"/>
+    </CuriosityDefinition>
+
+    <!-- Thin Atmosphere -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyThin" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyThin"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Long Nights -->
+   <CuriosityDefinition Name="Curiosity_PlanetAnomalyNight" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyNight"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+    <!-- Mineral Poor -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyMP" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeUnderground" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyMP"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Underground_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeUnderground"/>
+    </CuriosityDefinition>
+
+    <!-- Endless Defense System -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyEDS" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeRuins"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyEDS"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Ruins_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeRuins"/>
+    </CuriosityDefinition>
+
+    <!-- Hostile Locals -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyHL" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform" 
+                         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyHL"/>
+       </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+    <!-- Hostile Flora -->
+    <CuriosityDefinition Name="Curiosity_PlanetAnomalyFlora" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeLifeform"
+         Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyFlora"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Lifeform_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeLifeform"/>
+    </CuriosityDefinition>
+
+<!--Unbreathable Atmosphere-->
+   <CuriosityDefinition Name="Curiosity_PlanetAnomalyUnbreath" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyUnbreath"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+<!--Terrestrial Gamma Ray Flashes-->
+   <CuriosityDefinition Name="Curiosity_PlanetAnomalyGamma" SubCategory="PlanetAnomaly" DisplayedType="CuriosityTypeAtmospheric"
+     Difficulty="1" DiscoverOnColonization="true" ScoreProvider="CuriosityDiscovered">
+        <VisibilityPrerequisites>
+            <InterpreterPrerequisite Flags="Visibility">Property(Context, DetectionLevel) ge 1</InterpreterPrerequisite>
+        </VisibilityPrerequisites>
+        <PlanetAnomalyEffect>
+            <Anomaly Name="PlanetAnomalyGamma"/>
+        </PlanetAnomalyEffect>
+        <DroplistEffect>
+            <Droplist Name="CuriosityDroplist_Loot_Atmospheric_Era1"/>
+        </DroplistEffect>
+        <PopulationEvent Name="PopulationPoliticalEventCuriosityTypeAtmospheric"/>
+    </CuriosityDefinition>
+
+</Datatable>

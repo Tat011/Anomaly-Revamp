@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GameSettingDefinition.xsd">
+
+
+    <WorldSettingDefinition Name="AnomalyQualities" Default="Standard">
+        <ItemDefinition Name="Standard">
+            <KeyValuePair Key="Generator_PlanetAnomaly02_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly03_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly04_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly05_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly06_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly07_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly08_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly09_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly10_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly11_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly12_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly13_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly14_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly15_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly16_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly17_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly18_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly19_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly20_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly21_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly22_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly23_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly24_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly25_Quality">Moon</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly26_Quality">Moon</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly27_Quality">Moon</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly25Alt_Quality">Moon</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly26Alt_Quality">Moon</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly27Alt_Quality">Moon</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly50_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly51_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly52_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly53_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly54_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomaly55_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyStrongField_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyTame_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyEX_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyCalm_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyBreath_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyCL_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyLR_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalySpring_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyHab_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyOasis_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyBio_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyCryo_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyCR_Quality">Positive</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyRA_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyMA_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyFaraday_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyThin_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyNight_Quality">Negative</KeyValuePair>
+           <KeyValuePair Key="Generator_PlanetAnomalyMP_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyEDS_Quality">Mixed</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyHL_Quality">Negative</KeyValuePair>
+            <KeyValuePair Key="Generator_PlanetAnomalyFlora_Quality">Negative</KeyValuePair>
+        </ItemDefinition>
+    </WorldSettingDefinition>
+
+
+</Datatable>

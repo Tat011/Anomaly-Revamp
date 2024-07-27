@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/AnomalyReductionDefinition.xsd">
+
+    <!-- Dense Atmosphere -->
+    <AnomalyReductionDefinition Name="AnomalyReduction14" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">240</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly14"/>
+        <ResultAnomaly Name="PlanetAnomaly14Reduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Dust Lode -->
+    <AnomalyReductionDefinition Name="AnomalyReduction30" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">240</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomaly30"/>
+        <ResultAnomaly Name="PlanetAnomaly30Reduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Rich Atmosphere -->
+    <AnomalyReductionDefinition Name="AnomalyReductionRA" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">240</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyRA"/>
+        <ResultAnomaly Name="PlanetAnomalyRAReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Mountaneous Terrain -->
+    <AnomalyReductionDefinition Name="AnomalyReductionMA" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">240</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyMA"/>
+        <ResultAnomaly Name="PlanetAnomalyMAReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Faraday Planet -->
+    <AnomalyReductionDefinition Name="AnomalyReductionFaraday" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyFaraday"/>
+        <ResultAnomaly Name="PlanetAnomalyFaradayReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Thin Atmosphere -->
+    <AnomalyReductionDefinition Name="AnomalyReductionThin" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">240</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction1</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyThin"/>
+        <ResultAnomaly Name="PlanetAnomalyThinReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Long Nights -->
+    <AnomalyReductionDefinition Name="AnomalyReductionNight" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyNight"/>
+        <ResultAnomaly Name="PlanetAnomalyNightReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Mineral Poor -->
+    <AnomalyReductionDefinition Name="AnomalyReductionMP" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyMP"/>
+        <ResultAnomaly Name="PlanetAnomalyMPReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Endless Defense System -->
+    <AnomalyReductionDefinition Name="AnomalyReductionEDS" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyEDS"/>
+        <ResultAnomaly Name="PlanetAnomalyEDSReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Hostile Locals -->
+    <AnomalyReductionDefinition Name="AnomalyReductionHL" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyHL"/>
+        <ResultAnomaly Name="PlanetAnomalyHLReduced"/>
+    </AnomalyReductionDefinition>
+
+    <!-- Hostile Flora -->
+    <AnomalyReductionDefinition Name="AnomalyReductionFlora" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyFlora"/>
+        <ResultAnomaly Name="PlanetAnomalyFloraReduced"/>
+    </AnomalyReductionDefinition>
+
+<!--Unbreathable Atmosphere-->
+    <AnomalyReductionDefinition Name="AnomalyReductionUnbreath" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyUnbreath"/>
+        <ResultAnomaly Name="PlanetAnomalyUnbreathReduced"/>
+    </AnomalyReductionDefinition>
+
+<!--Terrestrial Gamma Ray Flashes-->
+    <AnomalyReductionDefinition Name="AnomalyReductionGamma" Category="CategoryAnomalyReduction">
+        <Cost ResourceName="SystemProduction">480</Cost>
+        <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyAnomalyReduction2</TechnologyPrerequisite>
+        <BaseAnomaly Name="PlanetAnomalyGamma"/>
+        <ResultAnomaly Name="AnomalyReductionGammaReduced"/>
+    </AnomalyReductionDefinition>
+
+
+</Datatable>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <LocalizationPair Name="%PlanetAnomaly03Title">Friendly Locals</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly03Description">Native inhabitants can be classified in one of two ways: those who view you as friends, and those who view you as dinner. Fortunately, this is the former case.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly10ReducedTitle">Ice-10</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly10ReducedDescription">A rare form of ice that is caused by water crystallizing under high pressures, Ice-10 is interesting for its thermodynamic properties. A concerted effort by the planet's engineers has led to a lessening of its negative effects and safer conditions for its study.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly12ReducedTitle">Metallic Waters</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly12ReducedDescription">Almost dirt-free, the hard, gleaming surface of this planet used to make agriculture difficult and potentially poisonous. Recent improvements in soil development and water filtration, however, have eased the problem.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly13Title">Aurora Waves</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly13Description">Gleaming, multi-colored auroras last all day and night, moving eerily across the surface of the planet. Their properties are greatly appreciated by both residents and tourists, as a bonus scientists get to study its effects.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly14Title">Dense Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly14Description">This planet possesses an abnormally high atmospheric density, resulting in increased fertility for the local lifeforms but making life harder for your citizens who aren't built for this find of pressure, the higher drag also makes launching ships to space more challenging.</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction14Title">Atmosphere Engineering</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction14Description">Small genetic alterations and a study on the aerodinamic properties of the atmosphere of this specific planet can lessen the negative effects of this anomaly.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly14ReducedTitle">Dense Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly14ReducedDescription">This planet possesses an abnormally high atmospheric density which used to make daily life and space travel more difficult but sufficient investment has reduced its negative effects.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly16ReducedTitle">Geothermic Activity</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly16ReducedDescription">Applying enormous amounts of energy and grappling with gravitational alterations, the previously uncontrollable geothermic activity of the planet is now somewhat less intense and safer to handle.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly18Title">Long Season</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly18Description">With an unusually long orbital ellipse, the world has very long seasons and is exposed to extremes of cold in winter and heat in summer. While this is fascinating for scientific experiment, it is difficult for agriculture and makes everyday life stressful.</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction18Title">Reduced Long Season</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction18Description">The application of terraforming sciences, advanced architecture, and improved agriculture can changed this anomaly from a health risk to a curiosity.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly20ReducedTitle">Polar Tempests</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly20ReducedDescription">Controlled global warming, advanced thermo-efficient architecture, and really warm parkas have greatly lessened the negative effects of this anomaly and increased crop yields.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly21Title">Weak Magnetic Field</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly21Description">A mostly inactive core causes this planet to have a very weak magnetic field, as such infrastructure needs to be specially designed to protect delicate machinery and lifeforms against solar rays.</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction21Title">Increased Magnetic Field</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction21Description">By placing massive field generators in the poles the magnetic field of the planet can be increased.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly21ReducedTitle">Weak Magnetic Field</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly21ReducedDescription">A mostly inactive core causes this planet to have a very weak magnetic field, however the aplication of massive field generators has remedied this deficiency.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyStrongFieldTitle">Strong Magnetic Field</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyStrongFieldDescription">A large, liquid ferrous core gives this planet strong magnetic fields that protect citizens and infrastructure against cosmic rays.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly22ReducedTitle">Kessler Syndrome</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly22ReducedDescription">Though it took time, patience, and very large nets, much of the orbital debris that circulated the planet has been removed or dumped planetside for recycling and mining.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly24Title">Irradiated</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly24Description">High levels of cosmic rays coupled with naturally occurring sources such as radon make this world a dangerous place. There is a high risk of cancer-related diseases, and the radiation levels complicate scientific experimentation.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomaly30Title">Dust Lode</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly30Description">Once a battleground of the Endless civilization, their nanotechnological 'Dust' is omnipresent in the ground and atmosphere, the local flora and fauna however don't like all the damage done by the fighting.</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction30Title">Genetic Modification</LocalizationPair>
+  <LocalizationPair Name="%AnomalyReduction30Description">By making the lifeforms more resistant to dust you can allow life to reclaim these dust infested zones.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly30ReducedTitle">Dust Lode</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomaly30ReducedDescription">Once a battleground of the Endless civilization, their nanotechnological 'Dust' is omnipresent in the ground and atmosphere.</LocalizationPair>
+
+ <LocalizationPair Name="%PlanetAnomaly43ReducedTitle">Poor Soil</LocalizationPair>
+
+ <LocalizationPair Name="%PlanetAnomaly50Title">Umbral Flora</LocalizationPair>
+ <LocalizationPair Name="%PlanetAnomaly50Description">Some kind of plant like offshoot of the Choir has begun growing here.</LocalizationPair>
+
+ <LocalizationPair Name="%PlanetAnomaly55Title">Uninhabitable Area</LocalizationPair>
+ <LocalizationPair Name="%PlanetAnomaly55Description">A large section of this world is entirely uninhabitable due to it being hazardous to living beings and having little usable natural resources.</LocalizationPair>
+
+
+  <LocalizationPair Name="%PlanetAnomalyTameTitle">Tame Fauna</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyTameDescription">This planet has a large ammount of easily domesticable fauna which can be used as food, pets and even put to work.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEXTitle">Extremophile Liforms</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEXDescription">There are a large ammount of lifeforms that have adapted to the harsh conditions here, the unique adaptations can be studied and having a native ecosystem helps feed your population.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyCalmTitle">Calm Weather</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyCalmDescription">The weather on this planet is relatively tame compared to other gas giants.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyBreathTitle">Breathable Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyBreathDescription">Despite the harsh conditions, the atmosphere here is breathable, no need for filtration masks or cumbersome suits.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyCLTitle">Crystal Lifeforms</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyCLDescription">This planet has an abundance of lifeforms made of crystals, presumably related to the Harmony.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyLRTitle">Lava Reefs</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyLRDescription">While not easily detectable, this planet has large reefs on its seas of molten rock.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalySpringTitle">Hot Springs</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalySpringDescription">There are an abundance of hot springs here, making this planet much nicer to live and a tourist destination.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyHabTitle">Abandoned Orbital Habitats</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyHabDescription">A now dead civilization has built large habitats here that have everything they need to function semi autonomously.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyOasisTitle">Oasis</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyOasisDescription">Seemingly as a respite from the harsh conditions, there are several oasises here with relatively mild conditions.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyBioTitle">Bioluminescent life</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyBioDescription">Most animals and planets on this planet glow in one way or another, making the scenery quite beautiful at night, improving visibility and saving you on lighting costs.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyCryoTitle">Cryovolcanoes</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyCryoDescription">Volcanoes that spew volatiles litter the planet surface with some even being visible from space, tourists, locals and even scientists love it.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyCRTitle">Crystal Rain</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyCRDescription">The extreme conditions of this gas giant lined up just right so that valuable crystals can form up in its atmosphere and rain down on your unsuspecting citizens.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyRATitle">Rich Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyRADescription">The atmosphere has a high concentration of rare gases making this planet rich in industry oportunities, the citizens that have to breathe these gasses are less thrilled.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionRATitle">Advanced Filtration</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionRADescription">By investing in better, more affordable filtration equipment the atmosphere can be made more of a nuisance.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyRAReducedTitle">Rich Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyRAReducedDescription">The atmosphere has a high concentration of rare gases making this planet rich in industry oportunities.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyMATitle">Mountaneous Terrain</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyMADescription">While it makes for some great tourist destinations, the terrain of this planet is hard to navigate through and build on.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionMATitle">Accessibility Engineering</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionMADescription">By heavily investing in specialized infrasturcture the negative effects of this terrain can be made negligible.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyMAReducedTitle">Mountaneous Terrain</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyMAReducedDescription">The terrain of this planet is very montaneus, but the lack of accessibility has been solved with by developing the infrastructure.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyFaradayTitle">Faraday Planet</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyFaradayDescription">The magnetosphere of this planet is lined up just right to form a Faraday cage around the whole plnet, completely blocking radio signals from getting out.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionFaradayTitle">Signal Boosting</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionFaradayDescription">The instalation of specialized radio emmiters along with giant magnotsphere dampeners can reduce the block to from being near total to only causing mild static.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyFaradayReducedTitle">Faraday Planet</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyFaradayReducedDescription">This planet used to be isolated from the communications of the outside world but investment in better radio equipment and magnotsphere dampening has allowed two way communication to happen again.</LocalizationPair>
+
+
+  <LocalizationPair Name="%PlanetAnomalyThinTitle">Thin Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyThinDescription">This planet has very low atmospheric density, making it hard to breathe and offering less protection from solar radiation, the reduced atmospheric drag does make launching rockets into space much easier.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionThinTitle">Atmospheric Mining</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionThinDescription">By releasing gasses trapped underground the atmospheric density can be normalized over time.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyThinReducedTitle">Thin Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyThinReducedDescription">There used to be a low atmospheric density here but controlled release of internal gasses has normalized the pressure.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyNightTitle">Long Nights</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyNightDescription">This planet has a high rotational tilt causing the day night cicle to fluctuate wildly in length.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionNightTitle">Orbital Mirrors</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionNightDescription">The construction of large orbital mirrors in orbit can mitigate the lack of sun.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyNightReducedTitle">Long Nights</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyNightReducedDescription">The instalation of precisely positioned orbital mirrors allows for the ammount of light that reaches the planet to be adjusted as needed.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyMPTitle">Mineral Poor</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyMPDescription">Perhaps due to bad luck during its formation, this planet doesn't have many minerals resulting in a very stagnant mining industry.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionMPTitle">Asteroid Mining</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionMPDescription">While the composition of this planet's crust can't be changed, investment in asteroid mining and processing can counter the deficiencies of this planet.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyMPReducedTitle">Mineral Poor</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyMPReducedDescription">By heavily investing in asteroid processing the lack of minerals on the planet can become much less relevant.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyEDSTitle">Endless Defense System</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEDSDescription">The Endless have set up an automated defense system on this planet that's still functional which would be great if it didnt also consider your citizens a threat.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionEDSTitle">Hack Endless Defense System</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionEDSDescription">While exeedingly complicated it is possible to take control of this system for yourself.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEDSReducedTitle">Endless Defense System</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyEDSReducedDescription">A special hacking operation has been conducted here to carefully subvert the defenses without damaging them.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyHLTitle">Hostile Locals</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyHLDescription">The population here have suffered a history of high crime rate and xenophobia that makes this planet less safe to live on.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionHLTitle">Rehabilitation</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionHLDescription">A combination of increased govermental presence with rehabilitation and prevention programs can produce a significant reduction in criminal activity.</LocalizationPair>
+   <LocalizationPair Name="%PlanetAnomalyHLReducedTitle">Hostile Locals</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyHLReducedDescription">The population here used to be really unpleasant but funding in the right iniciatives have made that a thing of the past.</LocalizationPair>
+ 
+  <LocalizationPair Name="%PlanetAnomalyFloraTitle">Hostile Flora</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyFloraDescription">The flora here has a high proportion of venomous, poisonous, spiky and generally unpleasant traits.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionFloraTitle">Genetic Engineering</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionFloraDescription">Genetic engineering can significantly reduce the unpleasantness of these plants.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyFloraReducedTitle">Hostile Flora</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyFloraReducedDescription">The flora here had a high proportion of venomous, poisonous, spiky and generally unpleasant traits but genetic engineering have made the plants on this planet significantly less dangerous while still keeping their uniqueness.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyUnbreathTitle">Unbreathable Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyUnbreathDescription">Despite this planet being life supporting, it's not supporting of most kinds of aliens.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionUnbreathTitle">Atmospheric Engineering</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyReductionUnbreathDescription">By introducing certain species and releasing certain gasses it is possible to nudge the atmosphere of this planet just enough to be breathable.</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyUnbreathReducedTitle">Unbreathable Atmosphere</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyUnbreathReducedDescription">This planet used to have an unbreathable atmosphere but through careful manipulation it is now tolerable.</LocalizationPair>
+
+  <LocalizationPair Name="%PlanetAnomalyGammaTitle">Terrestrial Gamma Ray Flashes</LocalizationPair>
+  <LocalizationPair Name="%PlanetAnomalyGammaDescription">This planet experiences frequent gamma ray flashes on its atmosphere, a very interesting phenomenon but one that disrupts all kinds of experiments/measurment devices.</LocalizationPair>
+
+</Datatable>

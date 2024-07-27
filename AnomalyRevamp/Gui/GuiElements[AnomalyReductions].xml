@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+   <!-- Dense Atmosphere -->
+    <GuiElement Name="AnomalyReduction14">
+        <Title>%AnomalyReduction14Title</Title>
+        <Description>%AnomalyReduction14Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetAnomaly14Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly14Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomaly14Reduced">
+        <Title>%PlanetAnomaly14ReducedTitle</Title>
+        <Description>%PlanetAnomaly14ReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly14Large"/>
+        </Icons>
+    </GuiElement>
+    
+   <!-- Dust Lode -->
+    <GuiElement Name="AnomalyReduction30">
+        <Title>%AnomalyReduction30Title</Title>
+        <Description>%AnomalyReduction30Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetAnomaly30Small" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly30Large" />
+            <Icon Size="Category" Path="CategoryAnomalyReductionSmall" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="PlanetAnomaly30Reduced">
+        <Title>%PlanetAnomaly30ReducedTitle</Title>
+        <Description>%PlanetAnomaly30ReducedDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Anomaly"/>
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomaly30Large"/>
+        </Icons>
+    </GuiElement>
+
+
+
+
+
+
+
+
+
+</Datatable>

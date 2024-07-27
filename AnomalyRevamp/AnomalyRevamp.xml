@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+  <RuntimeModule Name="AnomalyRevamp" Type="Extension" Version="1.2">
+     <Title>Anomaly Revamp</Title>
+     <Description>This mod revamps anomaly generation by allowing for a more flexible anomaly generation (most notable of which is that gas giants have more than 3 anomalies now) and also restricted anomaly spawning when it didn't make sense such as Permanent Monsoons or Polar Tempests spawning on lava. The mod also changes anomaly effects so possitive anomalies are more or less equal in strength, mixed anomalies are actually mixed and some negative anomalies are less painful (looking at you irradiated and acid rain).
+Also unique anomalies give influence since unique planets do.
+The mod also adds its own set of anomalies with distinct effects.
+The oasis image is from Starsector btw.
+	 </Description>
+     <Author>Tat011</Author>
+     <Homepage></Homepage>
+     <PreviewImageFile>ModIcon.png</PreviewImageFile>
+     <ReleaseNotes>Updated for ReAwakening, Removed invasion effects as they're kinda impossible to balance, reduced anomaly power to 3, added 2 more anomalies.</ReleaseNotes>
+     <Tags>Gameplay, Anomalies, Other</Tags>
+		<!-- To check what plugins are valid, and the order in which they need to go, check the Documentation/Endless_Space_2.xml file -->
+		<!-- Also, make sure to delete the Documentation and Schemas folders before you release the mod -->
+     <Plugins>
+         <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+             <ExtraTypes>
+                 <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
+	             <ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+	              <ExtraType DataType="ResourceGuiElement, Assembly-CSharp"/>
+	              <ExtraType DataType="HeroGuiElement, Assembly-CSharp"/>
+                  <ExtraType  DataType="HeroClassGuiElement, Assembly-CSharp"/>
+	              <ExtraType  DataType="PoliticsGuiElement, Assembly-CSharp"/>
+	               <ExtraType  DataType="WindowGuiElement, Assembly-CSharp"/>
+        	     <ExtraType  DataType="LoadingWindowGuiElement, Assembly-CSharp"/>
+	                <ExtraType DataType="MainMenuScreenGuiElement, Assembly-CSharp"/>
+        	     <ExtraType  DataType="NewGameScreenGuiElement, Assembly-CSharp"/>
+	                <ExtraType  DataType="ControlBannerGuiElement, Assembly-CSharp"/>
+	             <ExtraType  DataType="TechnologyScreenGuiElement, Assembly-CSharp"/>
+	             <ExtraType  DataType="TechnologyQuadrantGuiElement, Assembly-CSharp"/>
+	                <ExtraType  DataType="EconomyScreenGuiElement, Assembly-CSharp"/>
+	               <ExtraType  DataType="FleetsScreenGuiElement, Assembly-CSharp"/>
+	              <ExtraType  DataType="TechnologyGuiElement2, Assembly-CSharp"/>
+	               <ExtraType  DataType="TableGuiElement, Assembly-CSharp"/>
+	              <ExtraType  DataType="LawGuiElement, Assembly-CSharp"/>
+                   <ExtraType  DataType="QuestGuiElement, Assembly-CSharp"/>
+                  <ExtraType  DataType="TutorialGuiElement, Assembly-CSharp"/>
+	               <ExtraType DataType="GovernmentGuiElement, Assembly-CSharp"/>
+	               <ExtraType DataType="RecipeSlotGuiElement, Assembly-CSharp"/>
+	                <ExtraType DataType="EmpireActionGuiElement, Assembly-CSharp"/>
+	              <ExtraType DataType="EmpireDiplomaticActionGuiElement, Assembly-CSharp"/>
+	               <ExtraType DataType="ScanViewWindowGuiElement, Assembly-CSharp"/>
+	               <ExtraType DataType="ScanViewCaptionGroupGuiElement, Assembly-CSharp"/>
+	                <ExtraType DataType="AllianceGuiElement, Assembly-CSharp"/>
+    	            <ExtraType  DataType="DiplomaticTermGuiElement, Assembly-CSharp"/>
+	             <ExtraType  DataType="CuriosityTypeGuiElement, Assembly-CSharp"/>
+	              <ExtraType  DataType="StarSystemResourceImprovementGuiElement, Assembly-CSharp"/>
+	             <ExtraType  DataType="TradableSectionGuiElement, Assembly-CSharp"/>
+ 	             <ExtraType  DataType="MinorFactionDiplomacyModalWindowGuiElement, Assembly-CSharp"/>
+                 <ExtraType  DataType="VictoryScreenGuiElement, Assembly-CSharp"/>
+	             <ExtraType  DataType="StarSystemOverviewScanViewGuiElement, Assembly-CSharp"/>
+	             <ExtraType DataType="DamageDataGuiElement, Assembly-CSharp"/>
+             </ExtraTypes>   
+             <FilePath>Gui/GuiElements[*].xml</FilePath>
+         </DatabasePlugin> 
+ 
+          <DatabasePlugin DataType="Generator.Definitions.PlanetaryAnomalyDefinition, Assembly-CSharp-firstpass">
+             <FilePath>Simulation/AnomalyDefinitions.xml</FilePath>
+             <FilePath>Simulation/AnomalyDefinitions[*].xml</FilePath>
+         </DatabasePlugin>
+         
+          <DatabasePlugin DataType="AnomalyDefinition, Assembly-CSharp">
+             <FilePath>Simulation/AnomalyDefinitions.xml</FilePath>
+             <FilePath>Simulation/AnomalyDefinitions[*].xml</FilePath>
+         </DatabasePlugin>
+
+			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+				<FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+			</DatabasePlugin>
+
+			<DatabasePlugin DataType="GameSettingDefinition, Assembly-CSharp">
+				<ExtraTypes>
+					<ExtraType DataType="WorldSettingDefinition, Assembly-CSharp" />
+				</ExtraTypes>
+				<FilePath>Settings/WorldSettingDefinitions.xml</FilePath>
+			</DatabasePlugin>
+
+         <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+             <FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+             <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+         </DatabasePlugin>
+
+         <DatabasePlugin DataType="AnomalyReductionDefinition, Assembly-CSharp">
+             <FilePath>Simulation/ConstructibleElement_AnomalyReductions.xml</FilePath>
+             <FilePath>Simulation/ConstructibleElement_AnomalyReductions[*].xml</FilePath>
+         </DatabasePlugin>
+
+         <DatabasePlugin DataType="CuriosityDefinition, Assembly-CSharp">
+             <FilePath>Simulation/CuriosityDefinitions.xml</FilePath>
+             <FilePath>Simulation/CuriosityDefinitions[*].xml</FilePath>
+         </DatabasePlugin>
+
+         <LocalizationPlugin DefaultLanguage="english">
+	        	<Directory>Localization</Directory>
+         </LocalizationPlugin>
+	 </Plugins>
+  </RuntimeModule>
+</Datatable>
